@@ -15,7 +15,7 @@ public class NameEncoderDecoder {
                     .replace("4","o")
                     .replace("5","a")
                     .replace("YESNOTFORYOU","")
-                    .replace("NOTFORYOU","");
+                    .replaceFirst("NOTFORYOU","");
         return name;
     }
 }
